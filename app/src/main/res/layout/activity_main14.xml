@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:background="#FFFFFFFF"
+            android:gravity="left|bottom"
+            android:paddingLeft="10dp"
+            android:paddingBottom="1dp"
+            android:text="&lt;-  Report "
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C5BCAF"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:background="#FFFFFFFF"
+            android:textColor="#716565"
+            android:paddingLeft="25dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:gravity="left|bottom"
+            android:textSize="22dp"
+            android:text="Reason for Reporting"
+            />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.28"
+            android:background="@drawable/buttonbyme2"
+            android:gravity="left"
+            android:paddingLeft="12dp"
+            android:paddingBottom="8dp"
+            android:hint=" Enter reason here"
+            android:inputType="text"
+            android:textColor="#5BF4EEEE"
+            android:textSize="23dp" />
+
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1.8"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:paddingBottom="8dp"
+            />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.26"
+            android:background="@drawable/buttonbyme"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:paddingBottom="8dp"
+            android:text="Submit Report"
+            android:textAlignment="center"
+            android:textColor="#F6F6F6"
+            android:textSize="25dp"
+            android:onClick="onResetReportClick"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

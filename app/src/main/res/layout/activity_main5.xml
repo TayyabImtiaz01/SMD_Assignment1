@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- "Welcome" Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/DaudText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daud"
+        android:textSize="24sp"
+        android:textColor="#FF9800"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/featuredItemsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Featured Items"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="72dp" />
+
+    <TextView
+        android:id="@+id/yourItemsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Your Items"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="332dp" />
+
+    <TextView
+        android:id="@+id/recentItemsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Recent Items"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="582dp" />
+
+    <!-- Outer Box1 for featured items -->
+    <RelativeLayout
+        android:id="@+id/outerBox1"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="@drawable/buttonbyme2"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="20dp">
+
+        <!-- Inner Box -->
+        <RelativeLayout
+            android:id="@+id/innerBox1"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:background="@drawable/boxbyme"
+            android:layout_alignParentBottom="true">
+
+            <!-- Text inside Inner Box -->
+            <TextView
+                android:id="@+id/innerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Name"
+                android:textSize="24dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Islamabad"
+                android:textSize="24dp"
+                android:textColor="#A89E9E"
+                android:drawableLeft="@drawable/baseline_location_on_24"
+                android:layout_alignParentBottom="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:text="10$/hr"
+                android:textSize="24dp"
+                android:textColor="#FF9800"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:text="7th March"
+                android:textSize="20dp"
+                android:textColor="#A89E9E"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- Outer Box2 -->
+    <RelativeLayout
+        android:id="@+id/outerBox2"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="@drawable/buttonbyme2"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="300dp">
+
+        <!-- Inner Box -->
+        <RelativeLayout
+            android:id="@+id/innerBox2"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:background="@drawable/boxbyme"
+            android:layout_alignParentBottom="true">
+
+            <!-- Text inside Inner Box -->
+            <TextView
+                android:id="@+id/innerText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Name"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Islamabad"
+                android:textSize="15dp"
+                android:textColor="#A89E9E"
+                android:drawableLeft="@drawable/baseline_location_on_24"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- Outer Box3 for featured items -->
+    <RelativeLayout
+        android:id="@+id/outerBox3"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="@drawable/buttonbyme2"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="20dp">
+
+        <!-- Inner Box -->
+        <RelativeLayout
+            android:id="@+id/innerBox3"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:background="@drawable/boxbyme"
+            android:layout_alignParentBottom="true">
+
+            <!-- Text inside Inner Box -->
+            <TextView
+                android:id="@+id/innerTex3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Name"
+                android:textSize="24dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Islamabad"
+                android:textSize="24dp"
+                android:textColor="#A89E9E"
+                android:drawableLeft="@drawable/baseline_location_on_24"
+                android:layout_alignParentBottom="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:text="10$/hr"
+                android:textSize="24dp"
+                android:textColor="#FF9800"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:text="7th March"
+                android:textSize="20dp"
+                android:textColor="#A89E9E"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- Outer Box4 -->
+    <RelativeLayout
+        android:id="@+id/outerBox4"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="@drawable/buttonbyme2"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="300dp">
+
+        <!-- Inner Box -->
+        <RelativeLayout
+            android:id="@+id/innerBox4"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:background="@drawable/boxbyme"
+            android:layout_alignParentBottom="true">
+
+            <!-- Text inside Inner Box -->
+            <TextView
+                android:id="@+id/innerText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Name"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Islamabad"
+                android:textSize="15dp"
+                android:textColor="#A89E9E"
+                android:drawableLeft="@drawable/baseline_location_on_24"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- Outer Box5 for featured items -->
+    <RelativeLayout
+        android:id="@+id/outerBox5"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:background="@drawable/buttonbyme2"
+        android:layout_marginTop="615dp"
+        android:layout_marginLeft="20dp">
+
+
+    </RelativeLayout>
+
+    <!-- Outer Box4 -->
+    <RelativeLayout
+        android:id="@+id/outerBox6"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="@drawable/buttonbyme2"
+        android:layout_marginTop="615dp"
+        android:layout_marginLeft="300dp">
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        >
+
+
+        <!-- Box 1 -->
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.6"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/baseline_home_24"
+            android:paddingBottom="10dp"
+            android:layout_gravity="bottom"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.6"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/baseline_search_24"
+            android:drawablePadding="8dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="bottom"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.6"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/baseline_add_circle_24"
+            android:drawablePadding="8dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="bottom"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.6"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/baseline_chat_bubble_outline_24"
+            android:drawablePadding="1dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="bottom"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.6"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/baseline_boy_24"
+            android:drawablePadding="1dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="14"
+    android:background="@color/white"
+    tools:context=".MainActivity3">
+    <LinearLayout
+        android:layout_weight="14"
+        android:weightSum="4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.01">
+
+
+
+            <!-- Box 1 -->
+            <EditText
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.3"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_arrow_back_24"
+                android:textSize="80dp"
+                />
+
+            <EditText
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="-30dp"
+                android:layout_weight="0.3"
+                android:background="@color/white"
+                android:text="Edit Profile"
+                android:textSize="30dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="-30dp"
+                android:layout_weight="1.5"
+                android:background="@color/white"
+                android:text="Save changes"
+                android:textSize="25dp"
+                android:textColor="#FFC107"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C5BCAF"
+            android:layout_marginTop="-10dp"
+            android:layout_gravity="bottom">
+
+        </View>
+
+        <TextView
+            android:background="#FFFFFFFF"
+            android:textColor="#1C1B1B"
+            android:paddingLeft="12dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:gravity="left|bottom"
+            android:textSize="22dp"
+            android:text="Name"
+            android:layout_marginTop="15dp"
+            />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.4"
+            android:background="@drawable/buttonbyme2"
+            android:gravity="left|bottom"
+            android:paddingLeft="15dp"
+            android:paddingBottom="0dp"
+            android:text="Daud"
+            android:textColor="#1C1B1B"
+            android:textSize="30dp" />
+
+        <TextView
+            android:background="#FFFFFFFF"
+            android:textColor="#1C1B1B"
+            android:paddingLeft="12dp"
+            android:paddingBottom="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.21"
+            android:gravity="left|bottom"
+            android:textSize="22dp"
+            android:text="Email"
+            />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.4"
+            android:background="@drawable/buttonbyme2"
+            android:gravity="left|bottom"
+            android:paddingLeft="15dp"
+            android:paddingBottom="0dp"
+            android:text="duad@gmail.com"
+            android:textColor="#1C1B1B"
+            android:textSize="30dp" />
+
+        <TextView
+            android:background="#FFFFFFFF"
+            android:textColor="#1C1B1B"
+            android:paddingLeft="12dp"
+            android:paddingBottom="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.21"
+            android:gravity="left|bottom"
+            android:textSize="22dp"
+            android:text="Contact Number"
+            />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.4"
+            android:background="@drawable/buttonbyme2"
+            android:gravity="left|bottom"
+            android:paddingLeft="15dp"
+            android:paddingBottom="0dp"
+            android:text="0123 4567890"
+            android:textColor="#1C1B1B"
+            android:textSize="30dp" />
+
+        <TextView
+            android:background="#FFFFFFFF"
+            android:textColor="#716565"
+            android:paddingLeft="12dp"
+            android:paddingBottom="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.21"
+            android:gravity="left|bottom"
+            android:textSize="22dp"
+            android:text="Country"
+            />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.4"
+            android:background="@drawable/buttonbyme2"
+            android:gravity="left|bottom"
+            android:paddingLeft="15dp"
+            android:paddingBottom="0dp"
+            android:text="Pakistan"
+            android:textColor="#1C1B1B"
+            android:textSize="30dp" />
+
+        <TextView
+            android:background="#FFFFFFFF"
+            android:textColor="#1C1B1B"
+            android:paddingLeft="12dp"
+            android:paddingBottom="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.21"
+            android:gravity="left|bottom"
+            android:textSize="22dp"
+            android:text="City"
+            />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.4"
+            android:background="@drawable/buttonbyme2"
+            android:gravity="left|bottom"
+            android:paddingLeft="15dp"
+            android:paddingBottom="0dp"
+            android:text="Islamabad"
+            android:textColor="#1C1B1B"
+            android:textSize="30dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

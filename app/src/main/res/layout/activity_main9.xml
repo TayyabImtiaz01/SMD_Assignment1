@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@color/white"
+    tools:context=".MainActivity9">
+
+    <LinearLayout
+        android:layout_weight="9"
+        android:weightSum="9"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.01">
+
+
+
+            <!-- Box 1 -->
+            <EditText
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:text="&lt;-"
+                android:textSize="80dp"
+                />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="-30dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:text="Makenna Dias"
+                android:textSize="30dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="-30dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_call_24"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="-30dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_videocam_24"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C5BCAF"
+            android:layout_marginTop="-10dp"
+            android:layout_gravity="bottom">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <!-- Box 1 -->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.3"
+                android:background="@color/white"
+                android:src="@drawable/makennisa"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="#C3BFBA"
+                android:text="This is a sample message"
+                android:textSize="25dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:text="18:59"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <!-- Box 1 -->
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.4"
+                android:background="@color/white"
+                android:text="18:59"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.3"
+                android:background="#FF9800"
+                android:text="This is a sample message"
+                android:textSize="25dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <!-- Box 1 -->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.3"
+                android:background="@color/white"
+                android:src="@drawable/makennisa"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="#C3BFBA"
+                android:text="This is a sample message"
+                android:textSize="25dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:text="18:59"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-10dp">
+
+
+
+            <!-- Box 1 -->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.3"
+                android:background="@color/white"
+                android:src="@drawable/makennisa"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="#C3BFBA"
+                android:text="This is a sample message"
+                android:textSize="25dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:text="18:59"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-8dp">
+
+
+
+            <!-- Box 1 -->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.3"
+                android:background="@color/white"
+                android:src="@drawable/makennisa"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="#C3BFBA"
+                android:text="This is a sample message"
+                android:textSize="25dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:text="18:59"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <!-- Box 1 -->
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="-0.01dp"
+                android:layout_weight="0.4"
+                android:background="@color/white"
+                android:text="18:59"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.3"
+                android:background="#FF9800"
+                android:text="This is a sample message"
+                android:textSize="25dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <!-- Box 1 -->
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="-0.1dp"
+                android:layout_weight="0.4"
+                android:background="@color/white"
+                android:text="18:59"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.3"
+                android:background="#FF9800"
+                android:text="This is a sample message"
+                android:textSize="25dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp">
+
+
+
+            <!-- Box 1 -->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.3"
+                android:background="@color/white"
+                android:src="@drawable/makennisa"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="#C3BFBA"
+                android:text="This is a sample message"
+                android:textSize="25dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:text="18:59"
+                android:drawablePadding="1dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-8dp">
+
+
+
+            <!-- Box 1 -->
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.012"
+                android:background="@color/white"
+                android:src="@drawable/makennisa"
+                />
+
+            <EditText
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="250dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.03"
+                android:background="#C3BFBA"
+                android:text="..."
+                android:textSize="55dp"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C5BCAF"
+            android:layout_marginTop="-10dp"
+            android:layout_gravity="bottom">
+
+        </View>
+
+        <LinearLayout
+            android:layout_weight="0.6"
+            android:weightSum="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:background="#FFFFFFFF"
+                android:textColor="#CCC9C5"
+                android:paddingLeft="12dp"
+                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.2"
+                android:gravity="left|bottom"
+                android:textSize="20dp"
+                android:text="Write a reply..."
+                />
+
+
+
+
+
+
+             />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-10dp">
+
+            <!-- Box 1 -->
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.4"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_camera_alt_24" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-230dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.4"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_insert_drive_file_24"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-230dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.4"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_description_24"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

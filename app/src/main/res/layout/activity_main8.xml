@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@color/white"
+    tools:context=".MainActivity8">
+
+    <LinearLayout
+        android:layout_weight="4.7"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:background="#FFFFFFFF"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:paddingBottom="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="left|bottom"
+            android:textSize="30dp"
+            android:text="Chat"
+            android:layout_marginTop="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_marginTop="5dp">
+
+        </View>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- ImageView for the pic -->
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/makennisa" />
+
+        <!-- Vertical LinearLayout for name and details -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- TextView for the name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makenna Dias"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+
+            <!-- TextView for the details -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 new messages"
+                android:textSize="20dp"
+                android:textColor="#FF9800"
+                android:layout_marginLeft="5dp"/>
+
+
+        </LinearLayout>
+
+
+
+        <!-- ImageView for the arrow -->
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="44dp"
+            android:layout_height="34dp"
+            android:src="@drawable/baseline_arrow_right_24" />
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C5BCAF"
+            android:layout_marginTop="5dp">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- ImageView for the pic -->
+            <ImageView
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/makennisa" />
+
+            <!-- Vertical LinearLayout for name and details -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!-- TextView for the name -->
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Miracle Philips"
+                    android:textSize="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <!-- TextView for the details -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 new messages"
+                    android:textSize="20dp"
+                    android:textColor="#C5BCAF"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </LinearLayout>
+
+            <!-- ImageView for the arrow -->
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="44dp"
+                android:layout_height="34dp"
+                android:src="@drawable/baseline_arrow_right_24" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C5BCAF"
+            android:layout_marginTop="5dp">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- ImageView for the pic -->
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/makennisa" />
+
+            <!-- Vertical LinearLayout for name and details -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!-- TextView for the name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zaire Gouse"
+                    android:textSize="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <!-- TextView for the details -->
+                <TextView
+                    android:id="@+id/detailsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="no new messages"
+                    android:textSize="20dp"
+                    android:textColor="#C5BCAF"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </LinearLayout>
+
+            <!-- ImageView for the arrow -->
+            <ImageView
+                android:id="@+id/arrowImageView"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="44dp"
+                android:layout_height="34dp"
+                android:src="@drawable/baseline_arrow_right_24" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C5BCAF"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="bottom">
+
+        </View>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#CCC4C4"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0"
+            >
+
+
+            <!-- Box 1 -->
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_home_24"
+                android:paddingBottom="10dp"
+                android:layout_gravity="bottom"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_search_24"
+                android:drawablePadding="8dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="bottom"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_add_circle_24"
+                android:drawablePadding="8dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="bottom"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_chat_bubble_outline_24"
+                android:drawablePadding="1dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="bottom"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.6"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/baseline_boy_24"
+                android:drawablePadding="1dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="bottom"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
